@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Profile Analyzer</title>
+  </head>
+  <body>
+    <main class="main-content">
+      <section class="search-bar-section">
+        <form class="search-form">
+          <input
+            type="text"
+            name="search-username"
+            id="search_username"
+            placeholder="Username"
+            required
+          />
+          <button type="submit" class="search-button">Analyze</button>
+        </form>
+      </section>
+      <section class="profile-section">
+        <h2 class="subtitle">Profile</h2>
+        <div class="profile-info">
+          <img src="" alt="Profile Image" class="info-image" width="150" />
+          <div class="info-group">
+            <span class="info-username"></span>
+            <p class="info-bio"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
